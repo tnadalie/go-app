@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/tnadalie/app-go/app"
-	"github.com/tnadalie/app-go/config"
+	"github.com/tnadalie/go-app/app"
+	"github.com/tnadalie/go-app/config"
 )
 
 func main() {

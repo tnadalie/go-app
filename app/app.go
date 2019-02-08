@@ -7,9 +7,9 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
-	"github.com/tnadalie/app-go/app/handler"
-	"github.com/tnadalie/app-go/app/model"
-	"github.com/tnadalie/app-go/config"
+	"github.com/tnadalie/go-app/app/handler"
+	"github.com/tnadalie/go-app/app/model"
+	"github.com/tnadalie/go-app/config"
 )
 
 // App has router and db instances
