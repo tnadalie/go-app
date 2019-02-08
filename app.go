@@ -4,13 +4,16 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-  "src/models/clients"
+
 	"github.com/gorilla/mux"
+	clients "github.com/tnadalie/go-app/src/models/clients"
 )
 
 func AllMoviesEndPoint(w http.ResponseWriter, r *http.Request) {
-  clients := []clients.Client
-  fmt.Fprintln(w, "not implemented yet !")
+	var client clients.Client
+
+	client.Name = " thomas"
+	fmt.Fprintln(w, "not implemented yet !")
 }
 
 func FindMovieEndpoint(w http.ResponseWriter, r *http.Request) {
